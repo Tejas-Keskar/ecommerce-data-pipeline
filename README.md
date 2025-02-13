@@ -23,16 +23,15 @@ The pipeline follows these steps:
 ```bash
 ecommerce-data-pipeline/
 │── dags/
-│   ├── ecommerce_dag.py         # Airflow DAG for the ETL pipeline
+│   ├── ecommerce_dag.py         
 │── scripts/
-│   ├── data_processing.py       # Spark script for data transformation
+│   ├── data_processing.py       
 │── dashboards/
-│   ├── powerbi_dashboard.pbix   # Power BI Dashboard file
-│── config/
-│   ├── db_config.py             # MySQL database connection details
+│   ├── powerbi_dashboard.pbix   
 │── data/
-│   ├── sample_data.csv          # Sample raw data
-│── README.md                    # Project documentation (this file)
+│   ├── sample_data.csv          
+│── README.md      
+│── requirements.txt              
 ```
 
 ---
