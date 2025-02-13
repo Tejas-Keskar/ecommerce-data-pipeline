@@ -1,0 +1,16 @@
+# Apache Airflow and related providers
+apache-airflow==2.6.3
+apache-airflow-providers-apache-spark==4.3.0
+apache-airflow-providers-mysql==4.3.0
+
+# Spark and PySpark
+pyspark==3.3.2
+
+# MySQL Connector
+mysql-connector-python==8.0.33
+
+# Pandas for data manipulation
+pandas==1.5.3
+
+# NumPy for numerical operations
+numpy==1.23.5
